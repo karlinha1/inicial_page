@@ -18,9 +18,11 @@
 -ms-user-select: none;
 user-select: none;
 }
+
 h1,h2,a,h4{
     color: white;
 }
+
 h1{
     position: absolute;
     left: 35%;
@@ -49,12 +51,6 @@ a{
 a:hover{
     color:cyan;
 }
-
-.box{
-    box-shadow: 5px 5px grey;
-}
-
-
 
 .sim{
     position: absolute;
