@@ -1,0 +1,115 @@
+@import url('https://fonts.cdnfonts.com/css/myriad-pro');
+
+@font-face {
+    font-family: cursiva;
+    src: url(SweetRomance.otf);
+  }
+
+  @font-face {
+    font-family: autografo;
+    src: url(ValentineCute.ttf);
+  }
+
+*{
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+h1,h2,a,h4{
+    color: white;
+}
+h1{
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-family: 'Myriad Pro'
+}
+
+h2{
+    position: absolute;
+    left: 41%;
+    top: 47%;
+    font-size: 45px;
+    letter-spacing: 5px;
+    font-family: 'cursiva';
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-family: 'myriad-pro', sans-serif;
+}
+
+a:hover{
+    color:cyan;
+}
+
+.box{
+    box-shadow: 5px 5px grey;
+}
+
+
+
+.sim{
+    position: absolute;
+    top: 69%;
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-family: 'myriad-pro', sans-serif;
+    left: 38%;
+}
+
+.nao{
+    left: 58%;
+    position: absolute;
+    top: 69%;
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-family: 'myriad-pro', sans-serif;
+}
+
+h4{
+    position: absolute;
+    top:90%;
+    font-size: 15px;
+    letter-spacing: 7px;
+    font-family: 'autografo';
+    left: 35%;
+}
+.reta{
+    position: absolute;
+    width: 40%;
+    top: 65%;
+    left: 30%;
+}
+
+.divisa{
+    position: absolute;
+    height: 60px;
+    top: 465px;
+    left: 50%;
+    transform: rotate(180deg);
+}
+.corpo{
+    background-image: url("wallpaper.png");
+    background-size:cover
+  }
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+img{
+    position: absolute;
+    top: 30%;
+}
+
